@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#faedcd;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+ .head-title{
+    text-align:center;
+    background-color:#dda15e;
+    min-height:3rem;
+    color:#fefae0;
+}
+
+.container h1{
+    text-align:center;
+}
+.amount-container{
+    
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   margin-top:50px;
+     
+    font-size:20px; 
+    
+}
+
+
+.amount-container input{
+    font-size:20px;
+    text-align:center;
+    outline:none;
+ 
+      border-radius:10px;
+      border:2px solid black ;
+      
+}
+
+
+.dropdown{
+    margin-top:30px;
+    display:flex;
+     justify-content:space-evenly; 
+    align-items:center;
+    gap:30px;
+}
+
+.from{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.to{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+}
+
+.select-container select{
+    color:black;
+    font-size:1rem;
+}
+img{
+    width:50px;
+    height:50px;
+}
+.msg{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:50px;
+}
+
+#convert{
+    margin-top:20px;
+    padding:10px;
+    border-radius:10px;
+    background-color:#fff1e6;
+    font-size:1rem;
+    
+}
+
+.btn-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+} 
